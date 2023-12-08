@@ -8,7 +8,7 @@ python main.py \
 --gpu 4 \
 --seed 2 \
 --epochs 100 \
---ablation CLIP-Lung-2class-softmax-weights \
+--ablation CLIP-Lung-2class \
 --dataset lidc \
 --num-labels full \
 --ema-alpha 0.999 \
