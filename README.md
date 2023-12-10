@@ -2,7 +2,7 @@
 This repository is about the paper ``CLIP-Lung: Textual Knowledge-Guided Lung Nodule Malignancy Prediction'' published at MICCAI 2023.
 
 ## Dataset
-Please customize your own Class of Dataset. In our implementation, the '\_\_getitem\_\_' function returns a triplet of image tensor, class label, and attribute weights.
+Please customize your own Class of Dataset. In our implementation, the `__getitem__` function returns a triplet of image tensor, class label, and attribute weights.
 
 
 # Training
