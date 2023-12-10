@@ -20,7 +20,6 @@ from terminaltables import AsciiTable
 from models import *
 from models.modules.ema import EMA
 from utils.utils import save_args, Tee
-from utils.saver import Saver
 from utils.summaries import TensorboardSummary
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
 
