@@ -1,6 +1,13 @@
 # CLIP-Lung
 This repository is about the paper ``[CLIP-Lung: Textual Knowledge-Guided Lung Nodule Malignancy Prediction](https://doi.org/10.1007/978-3-031-43990-2_38)'' published at MICCAI 2023.
 
+<figure>
+  <!-- <figcaption>t-SNE results on test set.</figcaption> -->
+  <img
+  src="Figures/motivation.jpg"
+  alt="The beautiful MDN logo.">
+</figure>
+
 ## Dataset
 Please customize your own Class of Dataset. In our implementation, the `__getitem__` function returns a triplet of image tensor, class label, and attribute weights.
 
